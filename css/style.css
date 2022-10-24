@@ -72,5 +72,67 @@ select {
   }
 }
 /* End reset, starts style.scss */
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header-top__logo {
+  position: absolute;
+  color: #5f2eea;
+  height: 55px;
+  width: 205px;
+  left: 45px;
+  top: 34px;
+  font-size: 34.375px;
+  font-weight: 700;
+  margin-block: 0px;
+  margin-inline: 0px;
+}
+
+header .header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-top nav hr {
+  position: absolute;
+  width: 28px;
+  height: 4px;
+  left: 386px;
+  border-radius: 30px;
+  background-color: #5f2eea;
+  border-width: 0px;
+  margin-block: 0px;
+  margin-inline: 0px;
+}
+
+.header-nav__line1 {
+  top: 54px;
+}
+
+.header-nav__line2 {
+  top: 61px;
+}
+
+.header-nav__line3 {
+  top: 68px;
+}
+
+.header-line {
+  position: absolute;
+  width: 482px;
+  height: 0px;
+  left: -1px;
+  top: 115px;
+  transform: rotate(180deg);
+  border-top: 1px solid #bca4ff;
+  opacity: 0.4;
+  margin-block: 0px;
+  margin-inline: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+}
 
 /*# sourceMappingURL=style.css.map */
