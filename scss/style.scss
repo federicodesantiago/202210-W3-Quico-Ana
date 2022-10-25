@@ -66,6 +66,10 @@ header {
     border-bottom-width: 0px;
 }
 
+/*End of header. 
+
+START OF WHITE SEARCH SECTION*/
+
 .whiteSearch-text {
     position: absolute;
     width: 421px;
@@ -154,3 +158,178 @@ header {
     border-left-width: 0px;
     border-bottom-width: 0px;
 }
+
+/*End of white search section. 
+
+START OF BLUE SEARCH SECTION*/
+
+.blueSearch {
+    background-color: variables.$primary-dark-color;
+    border-radius: 20px;
+    position: absolute;
+    width: 420px;
+    height: 614px;
+    left: 31px;
+    top: 673px;
+}
+
+.blueSearch-title {
+    position: absolute;
+    width: 90px;
+    height: 38px;
+    left: 40px;
+    top: 30px;
+    color: #bca4ff;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+}
+
+.blueSearch-first {
+    .blueSearch-first__text {
+        list-style: none;
+        position: absolute;
+        width: 293px;
+        height: 28px;
+        left: 38px;
+        top: 95px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.75px;
+        color: #f3efff;
+    }
+    .blueSearch-input01 {
+        list-style: none;
+        position: absolute;
+        width: 352px;
+        height: 59px;
+        left: 35px;
+        top: 124px;
+        background: #eff0f7;
+        border-radius: 15px;
+    }
+}
+
+.blueSearch-second {
+    .blueSearch-second__text {
+        list-style: none;
+        position: absolute;
+        width: 293px;
+        height: 28px;
+        left: 38px;
+        top: 196px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.75px;
+        color: #f3efff;
+    }
+    .blueSearch-input02 {
+        list-style: none;
+        position: absolute;
+        width: 352px;
+        height: 59px;
+        left: 35px;
+        top: 225px;
+        background: #eff0f7;
+        border-radius: 15px;
+    }
+}
+
+.blueSearch-third {
+    .blueSearch-third__text {
+        list-style: none;
+        position: absolute;
+        width: 293px;
+        height: 28px;
+        left: 38px;
+        top: 298px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.75px;
+        color: #f3efff;
+    }
+    .blueSearch-input03 {
+        list-style: none;
+        position: absolute;
+        width: 352px;
+        height: 59px;
+        left: 35px;
+        top: 327px;
+        background: #eff0f7;
+        border-radius: 15px;
+    }
+}
+
+.blueSearch-fourth {
+    .blueSearch-fourth__text {
+        list-style: none;
+        position: absolute;
+        width: 293px;
+        height: 28px;
+        left: 38px;
+        top: 399px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.75px;
+        color: #f3efff;
+    }
+    .blueSearch-input04 {
+        list-style: none;
+        position: absolute;
+        width: 352px;
+        height: 59px;
+        left: 35px;
+        top: 429px;
+        background: #eff0f7;
+        border-radius: 15px;
+    }
+}
+
+.blueSearch-searchButton {
+    position: absolute;
+    left: 40px;
+    right: 33px;
+    top: 515px;
+    width: 347px;
+    height: 64px;
+    border-radius: 40px;
+    background: variables.$error-color;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.75px;
+    border: none;
+}
+
+/* Blue search section elementos comunes. Icono y texto interior*/
+
+.blueSearch-input__text-icon {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 24px;
+    top: 20px;
+    bottom: 16.67%;
+}
+
+.blueSearch-input__text {
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    left: 60px;
+    top: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #14142b;
+}
+
+/*End of blue search section. 
+
+START OF HOUSING SECTION*/
