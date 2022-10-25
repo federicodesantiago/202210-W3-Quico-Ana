@@ -447,4 +447,151 @@ section {
 
 /*End of housing section. 
 
-START OF final text SECTION*/
+START OF FINAL SECTION*/
+
+.final {
+    .final_contenido01 {
+        position: absolute;
+        top: 3237px;
+        left: 30px;
+        width: 421px;
+        height: 124px;
+        border: 2px solid #00ba88;
+        border-radius: 16px;
+        img {
+            position: absolute;
+            width: 23px;
+            height: 22px;
+            left: 24px;
+            top: 27px;
+            margin-inline-start: 0;
+            margin-inline-end: 17px;
+        }
+        p {
+            position: absolute;
+            width: 270px;
+            height: 88px;
+            left: 64px;
+            top: 20px;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 22px;
+            letter-spacing: 0.25px;
+            color: #00966d;
+            margin-block-start: 0;
+            margin-block-end: 17px;
+        }
+    }
+    .final_contenido01-x {
+        position: absolute;
+        top: 3296px;
+        right: 56.61px;
+        width: 11px;
+        height: 11px;
+    }
+
+    .final_contenido02 {
+        position: absolute;
+        top: 3401px;
+        left: 30px;
+        width: 421px;
+        height: 151px;
+        border: 2px solid #ed2e7e;
+        border-radius: 16px;
+        img {
+            position: absolute;
+            width: 23px;
+            height: 22px;
+            left: 24px;
+            top: 27px;
+            margin-inline-start: 0;
+            margin-inline-end: 17px;
+        }
+        p {
+            position: absolute;
+            width: 300px;
+            height: 88px;
+            left: 64px;
+            top: 20px;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 22px;
+            letter-spacing: 0.25px;
+            color: #00966d;
+            margin-block-start: 0;
+            margin-block-end: 17px;
+        }
+    }
+    .final_contenido02-x {
+        position: absolute;
+        top: 3474px;
+        right: 56.61px;
+        width: 11px;
+        height: 11px;
+    }
+    .final-contact {
+        position: absolute;
+        width: 427px;
+        height: 462px;
+        left: 24px;
+        top: 3586px;
+    }
+    .final-logo {
+        position: absolute;
+        width: 205px;
+        height: 55px;
+        left: 138px;
+        top: 4082px;
+    }
+    .final-lorem {
+        position: absolute;
+        width: 421px;
+        height: 246px;
+        left: 30px;
+        top: 4161px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.75px;
+        color: variables.$grey-color;
+    }
+    .final-contactInfo {
+        position: absolute;
+        width: 121px;
+        height: 32px;
+        left: 180px;
+        top: 4400px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.75px;
+        color: #14142b;
+    }
+    a {
+        position: absolute;
+        width: 251px;
+        height: 28px;
+        left: 115px;
+        top: 4455px;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.75px;
+        color: #5f2eea;
+    }
+    .final-address {
+        position: absolute;
+        width: 325px;
+        height: 112px;
+        left: 90px;
+        top: 4501px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.75px;
+        color: #6e7191;
+    }
+}
