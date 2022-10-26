@@ -4,20 +4,6 @@
 * {
     box-sizing: border-box;
     font-family: variables.$font-stack;
-    width: 481px;
-}
-
-.header-top__logo {
-    position: absolute;
-    color: variables.$primary-default-color;
-    height: 55px;
-    width: 205px;
-    left: 45px;
-    top: 34px;
-    font-size: 34.375px;
-    font-weight: 700;
-    margin-block: 0px;
-    margin-inline: 0px;
 }
 
 header {
@@ -25,46 +11,47 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        height: 122px;
+        .header-top__logo {
+            color: variables.$primary-default-color;
+            font-size: 2.148em;
+            font-weight: 700;
+            margin-block: 0px;
+            margin-inline-start: 45px;
+        }
         nav {
             hr {
-                position: absolute;
-                width: 28px;
                 height: 4px;
-                left: 386px;
-                border-radius: 30px;
+                width: 1.75em;
+                border-radius: 1.87em;
                 background-color: variables.$primary-default-color;
                 border-width: 0px;
-                margin-block: 0px;
-                margin-inline: 0px;
+                margin-block: 0px 3.5px;
+                margin-inline-start: 67px;
             }
         }
     }
+    .header-line {
+        position: absolute;
+        width: 100%;
+        top: 7.18em;
+        transform: rotate(180deg);
+        border-top: 1px solid #bca4ff;
+        opacity: 0.4;
+    }
 }
 
-.header-nav__line1 {
-    top: 54px;
-}
-.header-nav__line2 {
-    top: 61px;
-}
-.header-nav__line3 {
-    top: 68px;
-}
-
-.header-line {
-    position: absolute;
-    width: 482px;
-    height: 0px;
-    left: -1px;
-    top: 115px;
-    transform: rotate(180deg);
-    border-top: 1px solid #bca4ff;
-    opacity: 0.4;
-    margin-block: 0px;
-    margin-inline: 0px;
-    border-right-width: 0px;
-    border-left-width: 0px;
-    border-bottom-width: 0px;
+@media (min-width: 700px) {
+    header {
+        .header-top {
+            .header-top__logo {
+                margin-inline-start: 135px;
+            }
+        }
+    }
+    .header-line {
+        opacity: 1;
+    }
 }
 
 /*End of header. 
