@@ -128,14 +128,12 @@ START OF WHITE SEARCH SECTION*/
 }
 
 .whiteSearch-line {
-    position: absolute;
     width: 482px;
     height: 0px;
-    left: -1px;
-    top: 630px;
     transform: rotate(180deg);
     border-top: 1px solid #d9dbe9;
-    margin-block: 0px;
+    margin-block-start: 53px;
+    margin-block-end: 0px;
     margin-inline: 0px;
     border-right-width: 0px;
     border-left-width: 0px;
@@ -166,6 +164,9 @@ START OF WHITE SEARCH SECTION*/
     .whiteSearch-searchButton {
         width: 156px;
         margin-inline-start: 20px;
+    }
+    .whiteSearch-line {
+        width: 100%;
     }
 }
 
@@ -282,7 +283,7 @@ START OF HOUSING SECTION*/
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-block-start: 43px;
+    width: 420px;
 }
 
 .housing {
@@ -418,9 +419,122 @@ section {
     margin-inline-end: 35px;
 }
 
+.housing-div_04 {
+    display: none;
+}
+
+.housing-line_last {
+    display: none;
+}
+
 @media (min-width: 700px) {
+    .blueSearch-first .blueSearch-input {
+        width: 296px;
+    }
+    .blueSearch-second .blueSearch-input {
+        width: 296px;
+    }
+    .blueSearch-third .blueSearch-input {
+        width: 296px;
+    }
+    .blueSearch-fourth .blueSearch-input {
+        width: 296px;
+    }
+
+    .blueSearch-searchButton {
+        width: 296px;
+    }
+    .blueSearch {
+        min-width: 369px;
+    }
     .blueHousing-media {
         display: flex;
+        flex-direction: row;
+    }
+    .housing {
+        margin-block-start: 43px;
+    }
+    .housing-slideshow__02 {
+        display: none;
+    }
+
+    .housing-div {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .housing_lines-bottom {
+        display: none;
+    }
+
+    .housing-div_04 {
+        display: flex;
+    }
+    .housing-stars {
+        img {
+            margin-inline-start: 20px;
+            margin-inline-end: 0px;
+        }
+    }
+    .housing-button {
+        position: relative;
+    }
+    .housing-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        article {
+            margin-inline-start: 35px;
+            height: 220px;
+            width: 478px;
+        }
+        .housing-line_last {
+            display: block;
+        }
+        .housing-line {
+            width: 768px;
+            margin-block-start: 51px;
+            margin-block-end: 41px;
+            margin-inline-start: -268px;
+        }
+        .housing-stars1 {
+            left: 720px;
+            top: 492px;
+        }
+        .housing-stars2 {
+            left: 720px;
+            top: 796px;
+        }
+        .housing-stars3 {
+            left: 720px;
+            top: 1120px;
+        }
+        .housing-stars4 {
+            position: absolute;
+            left: 720px;
+            top: 1520px;
+        }
+        .housing-button1 {
+            position: absolute;
+            top: 484px;
+            left: 1100px;
+        }
+        .housing-button2 {
+            position: absolute;
+            top: 880px;
+            left: 1100px;
+        }
+        .housing-button3 {
+            position: absolute;
+            top: 1220px;
+            left: 1100px;
+        }
+        .housing-button4 {
+            position: absolute;
+            top: 1550px;
+            left: 1100px;
+        }
     }
 }
 
