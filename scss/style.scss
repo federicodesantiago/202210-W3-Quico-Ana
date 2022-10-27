@@ -621,6 +621,11 @@ START OF FINAL SECTION*/
     margin-block-start: 32.94px;
     width: 427px;
     height: 462px;
+    display: block;
+}
+
+.final-contact__large {
+    display: none;
 }
 
 .header-top__logo {
@@ -677,4 +682,52 @@ a {
     text-align: center;
     letter-spacing: 0.75px;
     color: #6e7191;
+}
+
+@media (min-width: 700px) {
+    .final_contenido01 {
+        width: 1167px;
+        height: 84.14px;
+        justify-content: flex-start;
+        p {
+            width: 462px;
+            height: 44px;
+        }
+        img {
+            margin-block-end: 0px;
+            margin-inline-start: 16px;
+        }
+        .final_contenido-x {
+            margin-inline-start: 0px;
+            margin: 0px;
+            margin-left: auto;
+            margin-inline-end: 26.61px;
+        }
+    }
+    .final_contenido02 {
+        width: 1167px;
+        height: 84.52px;
+        p {
+            width: 920px;
+            height: 44px;
+        }
+
+        img {
+            margin-block-end: 0px;
+            margin-inline-start: 16px;
+        }
+        .final_contenido-x {
+            margin-inline-start: 0px;
+            margin: 0px;
+            margin-left: auto;
+            margin-inline-end: 26.61px;
+        }
+    }
+    .final-contact {
+        display: none;
+    }
+    .final-contact__large {
+        margin-block-start: 58.48px;
+        display: block;
+    }
 }
