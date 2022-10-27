@@ -20,6 +20,7 @@ header {
             margin-inline-start: 45px;
         }
         nav {
+            margin-inline-end: 67px;
             hr {
                 height: 4px;
                 width: 1.75em;
@@ -27,7 +28,6 @@ header {
                 background-color: variables.$primary-default-color;
                 border-width: 0px;
                 margin-block: 0px 3.5px;
-                margin-inline-start: 67px;
             }
         }
     }
@@ -59,11 +59,9 @@ header {
 START OF WHITE SEARCH SECTION*/
 
 .whiteSearch-text {
-    position: absolute;
     width: 421px;
     height: 87px;
-    left: 30px;
-    top: 192px;
+    margin-block-start: 77px;
     font-family: "Poppins";
     font-style: normal;
     font-weight: 700;
@@ -73,35 +71,33 @@ START OF WHITE SEARCH SECTION*/
     color: #000000;
 }
 
+.whiteSearch {
+    display: flex;
+    flex-direction: column;
+}
+
+.whiteSearch-display {
+    display: flex;
+    flex-direction: column;
+}
 .whiteSearch-box {
-    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     width: 421px;
     height: 56px;
-    left: 30px;
-    right: 30px;
-    bottom: -1.82%;
+    margin-block-end: 25px;
     background: #f7f7fc;
     border: 2px solid #14142b;
     border-radius: 16px;
 }
 
-.whiteSearch-box__top {
-    top: 279px;
-}
-.whiteSearch-box__middle {
-    top: 360px;
-}
-.whiteSearch-box__bottom {
-    top: 441px;
-}
 .whiteSearch-box-text {
-    margin-block-start: 0;
-    margin-block-end: 0;
-    position: absolute;
+    margin-inline-start: 24px;
+    display: inline;
     width: 200px;
     height: 28px;
-    left: 24px;
-    top: 16px;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
@@ -109,18 +105,15 @@ START OF WHITE SEARCH SECTION*/
     color: #14142b;
 }
 
+.whiteSearch-box-arrow {
+    margin-inline-end: 24px;
+}
+
 .position-relative {
-    position: relative;
-    left: 396.5px;
-    top: 27%;
+    margin-block-end: 1124.54px;
 }
 
 .whiteSearch-searchButton {
-    position: absolute;
-    left: 30px;
-    right: 30px;
-    top: 522px;
-    bottom: 0%;
     width: 421px;
     height: 55px;
     border-radius: 40px;
@@ -145,6 +138,33 @@ START OF WHITE SEARCH SECTION*/
     border-right-width: 0px;
     border-left-width: 0px;
     border-bottom-width: 0px;
+}
+
+@media (min-width: 700px) {
+    .flex-position {
+        display: flex;
+        justify-content: space-between;
+    }
+    .whiteSearch-text {
+        width: 810px;
+    }
+    .whiteSearch-display {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .whiteSearch-box__first {
+        width: 474px;
+        margin-inline-start: 20px;
+    }
+    .whiteSearch-box__small {
+        width: 260px;
+        margin-inline-start: 10px;
+    }
+    .whiteSearch-searchButton {
+        width: 156px;
+        margin-inline-start: 20px;
+    }
 }
 
 /*End of white search section. 
