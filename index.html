@@ -36,74 +36,74 @@
             <hr class="header-line" />
         </header>
         <section class="whiteSearch">
-            <h2 class="whiteSearch-text">
-                Find deals on hotels, homes and much more...
-            </h2>
-            <div class="whiteSearch-box whiteSearch-box__top">
-                <p class="whiteSearch-box-text">Where are you going?</p>
-                <div class="position-relative">
-                    <p class=".whiteSearch-box-arrow">></p>
-                </div>
+            <div class="flex-position">
+                <h2 class="whiteSearch-text">
+                    Find deals on hotels, homes and much more...
+                </h2>
             </div>
-            <div class="whiteSearch-box whiteSearch-box__middle">
-                <p class="whiteSearch-box-text">Check-in - Check-out</p>
-                <div class="position-relative">
-                    <p class=".whiteSearch-box-arrow">></p>
+            <div class="whiteSearch-display">
+                <div class="whiteSearch-box whiteSearch-box__first">
+                    <p class="whiteSearch-box-text">Where are you going?</p>
+                    <p class="whiteSearch-box-arrow">></p>
                 </div>
-            </div>
-            <div class="whiteSearch-box whiteSearch-box__bottom">
-                <p class="whiteSearch-box-text">2 adults - 0 children</p>
-                <div class="position-relative">
-                    <p class=".whiteSearch-box-arrow">></p>
+                <div class="whiteSearch-box whiteSearch-box__small">
+                    <p class="whiteSearch-box-text">Check-in - Check-out</p>
+                    <p class="whiteSearch-box-arrow">></p>
                 </div>
+                <div class="whiteSearch-box whiteSearch-box__small">
+                    <p class="whiteSearch-box-text">2 adults - 0 children</p>
+                    <p class="whiteSearch-box-arrow">></p>
+                </div>
+                <button class="whiteSearch-searchButton">Search</button>
             </div>
-            <button class="whiteSearch-searchButton">Search</button>
             <hr class="whiteSearch-line" />
         </section>
-        <section class="blueSearch">
-            <h2 class="blueSearch-title">Search</h2>
-            <ul class="blueSearch-first">
-                <li class="blueSearch-text">Destination/property name</li>
-                <li class="blueSearch-input">
-                    <i
-                        class="blueSearch-input__text-icon fa-solid fa-magnifying-glass"
-                    ></i>
-                    <p class="blueSearch-input__text">Gold Coast</p>
-                </li>
-            </ul>
-            <ul class="blueSearch-second">
-                <li class="blueSearch-text">Check-in date</li>
-                <li class="blueSearch-input">
-                    <i
-                        class="blueSearch-input__text-icon fa-regular fa-calendar-days"
-                    ></i>
-                    <p class="blueSearch-input__text">Check-in date</p>
-                </li>
-            </ul>
-            <ul class="blueSearch-third">
-                <li class="blueSearch-text">Check-out date</li>
-                <li class="blueSearch-input">
-                    <i
-                        class="blueSearch-input__text-icon fa-regular fa-calendar-days"
-                    ></i>
-                    <p class="blueSearch-input__text">Check-out date</p>
-                </li>
-            </ul>
-            <ul class="blueSearch-fourth">
-                <li class="blueSearch-text">Destination/property name</li>
-                <li class="blueSearch-input">
-                    <i
-                        class="blueSearch-input__text-icon fa-regular fa-user"
-                    ></i>
-                    <p class="blueSearch-input__text">2 adults - 0 children</p>
-                </li>
-            </ul>
-            <button class="blueSearch-searchButton">Search</button>
-        </section>
-        <section class="housing">
-            <h2 class="housing_h2">254 Properties Found</h2>
-            <div class="housing_flex">
-                <div class="housing-position">
+        <div class="blueHousing-media">
+            <section class="blueSearch">
+                <h2 class="blueSearch-title">Search</h2>
+                <ul class="blueSearch-first">
+                    <li class="blueSearch-text">Destination/property name</li>
+                    <li class="blueSearch-input">
+                        <i
+                            class="blueSearch-input__text-icon fa-solid fa-magnifying-glass"
+                        ></i>
+                        <p class="blueSearch-input__text">Gold Coast</p>
+                    </li>
+                </ul>
+                <ul class="blueSearch-second">
+                    <li class="blueSearch-text">Check-in date</li>
+                    <li class="blueSearch-input">
+                        <i
+                            class="blueSearch-input__text-icon fa-regular fa-calendar-days"
+                        ></i>
+                        <p class="blueSearch-input__text">Check-in date</p>
+                    </li>
+                </ul>
+                <ul class="blueSearch-third">
+                    <li class="blueSearch-text">Check-out date</li>
+                    <li class="blueSearch-input">
+                        <i
+                            class="blueSearch-input__text-icon fa-regular fa-calendar-days"
+                        ></i>
+                        <p class="blueSearch-input__text">Check-out date</p>
+                    </li>
+                </ul>
+                <ul class="blueSearch-fourth">
+                    <li class="blueSearch-text">Destination/property name</li>
+                    <li class="blueSearch-input">
+                        <i
+                            class="blueSearch-input__text-icon fa-regular fa-user"
+                        ></i>
+                        <p class="blueSearch-input__text">
+                            2 adults - 0 children
+                        </p>
+                    </li>
+                </ul>
+                <button class="blueSearch-searchButton">Search</button>
+            </section>
+            <section class="housing">
+                <h2 class="housing_h2">254 Properties Found</h2>
+                <div class="housing_flex">
                     <div class="housing-slideshow">
                         <img src="./img/casa.png" alt="Casa moderna" />
                         <img src="./img/casa.png" alt="Casa moderna" />
@@ -126,7 +126,7 @@
                                 src="./img/localizador.webp"
                                 alt="Icono localizador"
                             />
-                            <h2>Show on map</h2>
+                            <h2 class="housing_titles__small">Show on map</h2>
                         </div>
                         <p>
                             Situated in Newcastle City Centre, Maldron Hotel
@@ -136,7 +136,7 @@
                     <button class="housing-button">Make a booking</button>
                     <hr class="housing-line" />
                 </div>
-                <div class="housing-position-02">
+                <div>
                     <div class="housing-slideshow">
                         <img src="./img/casa_02.png" alt="Casa moderna" />
                         <img src="./img/casa.png" alt="Casa moderna" />
@@ -159,7 +159,7 @@
                                 src="./img/localizador.webp"
                                 alt="Icono localizador"
                             />
-                            <h2>Show on map</h2>
+                            <h2 class="housing_titles__small">Show on map</h2>
                         </div>
                         <p>
                             Situated in Newcastle City Centre, Maldron Hotel
@@ -169,7 +169,7 @@
                     <button class="housing-button">Make a booking</button>
                     <hr class="housing-line" />
                 </div>
-                <div class="housing-position-03">
+                <div>
                     <div class="housing-slideshow">
                         <img src="./img/casa_03.png" alt="Casa moderna" />
                         <img src="./img/casa.png" alt="Casa moderna" />
@@ -192,7 +192,7 @@
                                 src="./img/localizador.webp"
                                 alt="Icono localizador"
                             />
-                            <h2>Show on map</h2>
+                            <h2 class="housing_titles__small">Show on map</h2>
                         </div>
                         <p>
                             Situated in Newcastle City Centre, Maldron Hotel
@@ -200,16 +200,18 @@
                         </p>
                     </article>
                     <button class="housing-button">Make a booking</button>
-                    <hr class="housing-line-small" />
-                    <img
-                        src="./img/arrow_down.png"
-                        class="housing-arrow"
-                        alt="Flecha hacia abajo"
-                    />
-                    <hr class="housing-line-small2" />
+                    <div class="housing_lines-bottom">
+                        <hr class="housing-line-small" />
+                        <img
+                            src="./img/arrow_down.png"
+                            class="housing-arrow"
+                            alt="Flecha hacia abajo"
+                        />
+                        <hr class="housing-line-small" />
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
         <section class="final">
             <div>
                 <div class="final_contenido01">
@@ -219,12 +221,12 @@
                         instant confirmation with FREE cancellation on most
                         rooms!
                     </p>
+                    <img
+                        class="final_contenido-x"
+                        src="./img/equis.png"
+                        alt="Equis sign"
+                    />
                 </div>
-                <img
-                    class="final_contenido01-x"
-                    src="./img/equis.png"
-                    alt="Equis sign"
-                />
             </div>
             <div>
                 <div class="final_contenido02">
@@ -235,12 +237,12 @@
                         free cancellation option in case your travel plans need
                         to change.
                     </p>
+                    <img
+                        class="final_contenido-x"
+                        src="./img/equis.png"
+                        alt="Equis sign"
+                    />
                 </div>
-                <img
-                    class="final_contenido02-x"
-                    src="./img/equis.png"
-                    alt="Equis sign"
-                />
             </div>
             <img
                 class="final-contact"
